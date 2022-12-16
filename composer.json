@@ -1,0 +1,23 @@
+{
+    "name": "viettqt/php-api",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Viettqt\\PhpApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Viet Bui",
+            "email": "vietbh@beetsoft.com.vn"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.2",
+        "bramus/router": "~1.6",
+        "doctrine/migrations": "^3.5",
+        "doctrine/orm": "^2.13",
+        "symfony/cache": "^6.2",
+        "doctrine/annotations": "^1.14"
+    }
+}
