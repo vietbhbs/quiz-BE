@@ -8,7 +8,7 @@ use Doctrine\Migrations\Configuration\EntityManager\ExistingEntityManager;
 use Doctrine\Migrations\DependencyFactory;
 use Doctrine\Migrations\Configuration\Migration\PhpFile;
 
-$config = new PhpFile('migrations.php'); // Or use one of the Doctrine\Migrations\Configuration\Configuration\* loaders
+$config = new PhpFile('Migrations.php'); // Or use one of the Doctrine\Migrations\Configuration\Configuration\* loaders
 $params = [
     'dbname' => 'quiz_api',
     'user' => 'root',

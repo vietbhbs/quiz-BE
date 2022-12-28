@@ -1,9 +1,11 @@
 <?php
-namespace Controller;
+namespace Viettqt\PhpApi\Controller;
+use Viettqt\JetDB\DB;
+
 class TestController
 {
     public static function list(): void
     {
-        echo 'testt';
+        var_dump(DB::table('users')->get());
     }
 }
