@@ -19,6 +19,7 @@
         "doctrine/orm": "^2.13",
         "symfony/cache": "^6.2",
         "doctrine/annotations": "^1.14",
-        "viettqt/jet-db": "^1.0"
+        "viettqt/jet-db": "^1.0",
+        "viettqt/jet-response": "^1.0"
     }
 }

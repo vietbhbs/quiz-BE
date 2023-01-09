@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc19b28c18b770d144df08967b69174b",
+    "content-hash": "500def7a5694fb8f5bf5f4ac80d10ad1",
     "packages": [
         {
             "name": "bramus/router",
@@ -2827,6 +2827,43 @@
                 "source": "https://github.com/vietbhbs/jet-db/tree/v1.0.2"
             },
             "time": "2022-12-28T08:16:29+00:00"
+        },
+        {
+            "name": "viettqt/jet-response",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vietbhbs/jet-response.git",
+                "reference": "25f4f3675a06c9b61d6ac4ca4b0af917bd6757a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vietbhbs/jet-response/zipball/25f4f3675a06c9b61d6ac4ca4b0af917bd6757a6",
+                "reference": "25f4f3675a06c9b61d6ac4ca4b0af917bd6757a6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Viettqt\\JetResponse\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Viet Bui",
+                    "email": "vietbh@beetsoft.com.vn"
+                }
+            ],
+            "description": "php api response",
+            "support": {
+                "issues": "https://github.com/vietbhbs/jet-response/issues",
+                "source": "https://github.com/vietbhbs/jet-response/tree/v1.0.0"
+            },
+            "time": "2023-01-03T06:32:04+00:00"
         }
     ],
     "packages-dev": [],
